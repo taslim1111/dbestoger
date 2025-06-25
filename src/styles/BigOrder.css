@@ -1,0 +1,277 @@
+/* BIG ORDER HEADER */
+.jargon-bo-image{
+    display: flex;
+    margin-top: 50px;
+}
+.big-order h1{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-size: 100px;
+    font-family: "Londrina Solid";
+    text-align: center;
+}
+
+.big-order p{
+    font-family: "Londrina Solid";
+    text-align: center;
+    margin-top: 0px;
+    font-size: 35px;
+    text-shadow: #555;
+}
+
+.bigorder-image img{
+    display: flex;
+    opacity: 80%;
+}
+
+/* JARGON */
+.jargon-big-order {
+    justify-content: center;
+
+}
+.jargon-big-order img {
+    width: 550px;
+    height: 438px;
+}
+.jargon-big-order {
+    text-align: left;
+}
+
+.jargon {
+    text-align: left;
+}
+
+.jargon-big-order p {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 150px;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+
+
+/* BENEFIT */
+.benefit-container {
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+}
+.benefit-h1 {
+    font-family: "Londrina Solid";
+    font-size: 100px;
+}
+
+.box {
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px Solid #555;
+    border-spacing: 25px;
+    padding: 20px 30px;
+    height: 170px;
+    width: 900px;
+
+}
+
+.benefit-text {
+    color:#ffed00;
+    font-size: 45px;
+    margin-top: 0px;
+}
+.benefit-desc {
+    text-align: left;
+    font-family: "Montserrat" bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+/* how to order */
+.hto {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.how-to-order {
+    display:block ;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: #555;
+    border-radius: 20px;
+    align-items: center;
+    width: 750px;
+    text-align: center;
+    height: 1010px;
+    padding: 10px 50px;
+}
+
+.how-to-order h1 {
+    font-size: 75px;
+    color: #ffed00;
+    margin-bottom: 0px;
+    font-family: "Londrina Solid";
+}
+
+.how-to-order h2 {
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+.step {
+    font-family: "Montserrat",sans-serif ;
+    font-size: 20px;
+    height: 10px;
+
+}
+
+.btn-hto{
+  margin-top: 25px;
+  background-color: red;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-hto:hover {
+    background-color: darkred;
+  color: #dcdcd7;
+}
+/* s&k */
+.SdanK {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif ;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: center;
+}
+
+.SdanK h1 {
+    font-size: 100px ;
+    text-align: center;
+    font-family: "Londrina Solid";
+    margin-bottom: 0px;
+}
+
+
+
+@media (max-width:400px) {
+    .big-order h1 {
+        font-size: 50px;
+    }
+
+    .big-order p {
+        font-size: 25px;
+    }
+
+    /* jargon */
+    .jargon-bo-image{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+.jargon-bo-image img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .jargon-big-order {
+        display: block;
+    }
+
+    .jargon-big-order h1 {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .jargon-big-order p {
+    font-size: 15px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    }
+
+    /* benefit */
+    .benefit-container {
+        width: 400px;
+    }
+
+    .benefit-h1 {
+        font-size: 50px;
+    }
+
+    .benefit-text {
+        font-size: 30px;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .benefit-desc {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .box {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 350px;
+    }
+
+    /* how to order */
+    .how-to-order {
+        width: 350px;
+        height: 1150px;
+    }
+    .how-to-order h1 {
+        font-size: 40px;
+    }
+
+    .how-to-order h2 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .how-to-order p{
+        font-size: 15px;
+        margin-top: 10px;
+     
+    }
+
+    .btn-hto {
+        font-size: 12px;
+    }
+
+    .btn-hto:hover {
+  background-color: darkred;
+  color: #dcdcd7;
+}
+
+    /* s&K */
+    .SdanK {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .SdanK h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .SdanK li {
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

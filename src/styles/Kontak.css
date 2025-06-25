@@ -1,0 +1,126 @@
+.kontak {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: "Londrina Solid";
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+}
+
+/* Global Styles */
+body {
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading */
+h1 {
+    color: #ffe600;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Subheading */
+.subheading {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Contact Info Section */
+.contact-info {
+    background: radial-gradient(circle at top left, #444 30%, transparent 31%);
+    padding: 40px;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.contact-item i {
+    background-color: #ffcc00;
+    border-radius: 50%;
+    color: #000;
+    padding: 10px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.contact-item span {
+    font-size: 16px;
+}
+
+/* Form Section */
+form {
+    background-color: #2d2d2d;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 40px auto;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+form label {
+    font-size: 14px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Chili Image */
+.chili {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    width: 80px;
+}
+
+@media (max-width:400px) {
+    .h1 { 
+        font-size: 75px;
+
+    }
+    
+}

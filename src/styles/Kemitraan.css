@@ -1,0 +1,299 @@
+/* promo 1 */
+.kemitraan {
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.promo1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.promo1 button{
+     display: block;
+  margin: 20px auto;
+}
+.promo1 img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo1-header {
+    font-size: 75px;
+    font-family: "Londrina Solid";
+    margin-bottom: 0px;
+
+}
+
+.promo1-desc {
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-red-kemitraan{
+    justify-content: center;
+  background-color: red;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-red-kemitraan:hover {
+  background-color: darkred;
+  color: #dcdcd7;
+}
+
+/* penjelasan */
+.penjelasan {
+    display: flex;
+    margin-right: 25px;
+    margin-top: 50px;
+    align-items: center;
+    font-family: "Montserrat";
+    text-align: left;
+    justify-content: center;
+}
+
+.penjelasan img {
+    width: 100%;
+  height: auto;
+  
+}
+
+/* VISI */
+
+.VISI1 h1 {
+    font-family: "Londrina Solid";
+    font-size: 150px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.border-visi {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding-left: 25px;
+background-color: #000000;
+  color: white;
+  padding: 40px 20px;
+  margin-left: auto;
+  font-family: 'Londrina Solid';
+}
+
+.card-visi {
+    background-color: #111;
+  border: 1px solid #555;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: left;
+  position: relative;
+}
+
+.card-visi img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.card-visi h3 {
+    font-family: "Londrina Solid";
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.card-visi p {
+    font-family: "Montserrat";
+    margin-top: 5px;
+}
+
+/* swot */
+
+.SWOT {
+    font-family: "Londrina Solid";
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.border-swot {
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+    text-align: left;
+    position: relative;
+ 
+}
+
+.card-swot {
+   justify-content: center;
+   align-items: center;
+    background-color: #111;
+  border: 1px solid #555;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 700px;
+  text-align: left;
+  position: relative;
+}
+
+.card-swot h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: "Londrina Solid";
+}
+
+.card-swot p{
+    font-family: "Montserrat";
+    font-size: 25px;
+}
+
+/* NVESTASI */
+.INVESTASI {
+    margin-top: 50px;
+    font-family: "Montserrat";
+}
+ 
+.header-investasi {
+    justify-content: center;
+    font-family: "Londrina Solid";
+    font-size: 100px;
+    text-align: center;
+}
+
+.investasi-list {
+    font-family: "Montserrat";
+    font-size: 25px;
+    padding-left: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.investasi-list img{
+     max-width: 100%;
+    height: auto;
+}
+
+.list{
+    list-style-type: disc; /* atau none */
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 10px;
+  color: white;
+  padding-left: 20px;
+}
+
+/* resposive */
+/* promo1 */
+@media (max-width:400px) {
+    .promo1 h1{
+        font-size: 40px;
+        margin: 5px;
+    }
+
+    .promo1 p{
+        font-size: 12px;
+    }
+
+    .promo1 button {
+        font-size: 10px;
+    }
+
+
+    /*penjelasan*/
+    .penjelasan{
+        display: grid;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+
+    .penjelasan-2 {
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    /* visi */
+    .VISI1 h1 {
+        font-size: 100px;
+        margin-bottom: 0px;
+    }
+
+    .border-visi {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .card-visi {
+        margin-top: 0px;
+        margin: 25px;
+    }
+
+    .card-visi img{
+        width: 175px;
+    }
+
+    /* swot */
+    .SWOT {
+        font-size: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .border-swot {
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-swot {
+        
+        width: 350px;
+    }
+
+    /* investasi */
+    .header-investasi {
+        font-size: 75px;
+
+    }
+
+    .investasi-list img{
+        width: 100%;
+        height: auto;
+    }
+
+    .investasi-list {
+        font-size: 15px;
+        display: contents;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+
+    .list {
+        justify-content: center;
+        text-align: left;
+        margin-top: 0px;
+        padding-left: 50px;
+    }
+}

@@ -1,0 +1,98 @@
+/* @import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+} */
+
+.Menu {
+color: #ffffff;
+justify-content: center;
+text-align: center;
+}
+.menu {
+  color: #FFED00;
+  font-size: 100px;
+  font-family: "Londrina Solid";
+}
+.menu-text {
+  margin-top: 25px;
+  font-size: 75px;
+  font-family: "Londrina Solid";
+  color: #FFED00;
+}
+.card-menu img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-menu {
+  background-color: #111;
+  border: 1px solid #555;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+ width: 300px;
+  height: 100%;
+
+  text-align: center;
+  font-family:"Londrina Solid", sans-serif;
+  font-size: 40px;
+  gap: 20px;
+}
+
+.tombol-menu a {
+  color: white;
+  background-color: rgb(255, 0, 0) ;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-spacing: 10px;
+  margin-left: 10px ;
+}
+
+.tombol-menu a:hover {
+  background-color: darkred;
+  color: #dcdcd7;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.card-menu-dis {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+@media (max-width:400px) {
+  .card-menu-dis {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 50px;
+    padding-right: 50px ;
+  }
+
+  .tombol-menu {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .tombol-menu a{
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-spacing: 10px;
+ 
+  }
+}

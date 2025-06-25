@@ -1,0 +1,213 @@
+.jargon {
+    color: #ffd600;
+    font-size: 70px;
+    font-family: "Londrina Solid";
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: right;
+   
+}
+
+.text-bawah {
+    color: white;
+    font-size: 25px;
+    font-family: "Montserrat"; 
+    max-width: 80%;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 50px;
+    text-align: right;
+}
+.About1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.kolom1 {
+  flex: 1;
+  max-width: 50%;
+}
+
+  /* perjalanan kami */  
+  .timeline-item {
+    justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: left;
+  }
+.perjalanan {
+  text-align: center;
+}
+.perjalanan h1 {
+  font-family: "Londrina Solid";
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+.perjalanan p{
+  font-family: "Montserrat";
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.kolom-about {
+    color: white;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.title-yellow {
+  font-family: "Londrina Solid";
+  color: #ffd600;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.timeline-container {
+  position: relative;
+  padding: 50px 20px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+  transform: translate 50%;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timeline-item-left {
+  flex-direction: row;
+}
+
+.timeline-item.right {
+  flex-direction: row-reverse;
+}
+
+.timeline-image {
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+
+}
+
+.timeline-item-right .timeline-image {
+  transform: rotate(5deg);
+}
+
+.timeline-content {
+  background: transparent;
+  padding: 20px;
+  max-width: 400px;
+  position: relative;
+}
+
+.timeline-content .year {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.timeline-content .title {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.yellow {
+  color: #ffd600;
+}
+
+/* Red dot in the center line */
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline-content p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+@media (max-width: 768px) {
+  .About{
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .timeline-item-left {
+  flex-direction: column;
+}
+
+  .kolom1, .image-about {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .text-bawah {
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  .jargon {
+    font-size: 40px;
+    text-align: left;
+    margin-left: auto;
+  }
+
+  .perjalanan h1 {
+    font-size: 50px;
+  }
+
+  .perjalanan p {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .timeline-content p{
+    font-size: 15px;
+  }
+
+  .timeline-item {
+    display: block;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .timeline-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    
+  }
+
+
+  .timeline-container {
+    padding: 20px;
+    gap: 0px;
+  
+  }
+}
