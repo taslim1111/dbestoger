@@ -19,7 +19,7 @@ body {
 }
 
 /* Heading */
-h1 {
+.Hearder h1 {
     color: #ffe600;
     font-weight: 900;
     font-size: 100px;
